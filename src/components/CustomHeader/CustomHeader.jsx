@@ -1,7 +1,7 @@
 import React from 'react'
 import { ChatBubbleLeftRightIcon, PhoneIcon } from "@heroicons/react/24/solid"
 
-const Header = ({ chat }) => {
+const customHeader = ({ chat }) => {
     return (
         <div className='chat-header'>
             <div className='flexbetween'>
@@ -16,4 +16,4 @@ const Header = ({ chat }) => {
     )
 }
 
-export default Header
+export default customHeader
